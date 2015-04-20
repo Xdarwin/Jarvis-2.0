@@ -16,7 +16,7 @@ Y= Yup+201
 
 Button UpperLeft
 X= Xup-190
-Y= Yup+15
+Y= Yup+14
 
 ButtonCenter
 X= Xup-75

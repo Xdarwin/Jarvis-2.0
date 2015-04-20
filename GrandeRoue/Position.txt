@@ -1,0 +1,24 @@
+ButtonUp
+Xup=200
+Yup=10
+
+ButtonUpperRight
+X= Xup+149
+Y= Yup+14
+
+ButtonBottomRight
+X= Xup+70
+Y= Yup+317
+
+ButtonBottomLeft
+X= Xup-186
+Y= Yup+201
+
+Button UpperLeft
+X= Xup-190
+Y= Yup+15
+
+ButtonCenter
+X= Xup-75
+Y= Yup+110
+ImageAlpha=1

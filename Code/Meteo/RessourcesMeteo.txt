@@ -1,0 +1,54 @@
+JOUR 0
+<TminJ0>3</TminJ0>
+<TmaxJ0>14</TmaxJ0>
+<TempsJ0>Éclaircies</TempsJ0>
+<UVJ0>4</UVJ0>
+<VentJ0>14</VentJ0>
+
+JOUR 1
+<TminJ1>5</TminJ1>
+<TmaxJ1>16</TmaxJ1>
+<TempsJ1>Éclaircies</TempsJ1>
+<UVJ1>4</UVJ1>
+<VentJ1>7</VentJ1>
+
+JOUR 2
+<TminJ2>7</TminJ2>
+<TmaxJ2>14</TmaxJ2>
+<TempsJ2>Pluie</TempsJ2>
+<UVJ2>4</UVJ2>
+<VentJ2>18</VentJ2>
+
+JOUR 3
+<TminJ3>6</TminJ3>
+<TmaxJ3>12</TmaxJ3>
+<TempsJ3>Pluieséparses</TempsJ3>
+<UVJ3></UVJ3>
+<VentJ3>11</VentJ3>
+
+JOUR 4
+<TminJ4>5</TminJ4>
+<TmaxJ4>16</TmaxJ4>
+<TempsJ4>Pluie</TempsJ4>
+<VentJ4>11</VentJ4>
+
+JOUR 5
+<TminJ5>9</TminJ5>
+<TmaxJ5>18</TmaxJ5>
+<TempsJ5>Pluieséparses</TempsJ5>
+<VentJ5>14</VentJ5>
+
+JOUR 6
+<TminJ6>12</TminJ6>
+<TmaxJ6>20</TmaxJ6>
+<TempsJ6>Pluieséparses</TempsJ6>
+<VentJ6>18</VentJ6>
+
+JOUR 7
+<TminJ7>12</TminJ7>
+<TmaxJ7>20</TmaxJ7>
+<TempsJ7>Risquesd'orages</TempsJ7>
+<VentJ7>18</VentJ7>
+
+TEMP ACTUELLE
+<TempAct>7</TempAct>

@@ -255,6 +255,10 @@ function Update()
 	StringTempAct = string.gsub(StringTempAct, "%s+", "")
 	local ModifTempAct ='<TempAct>'..StringTempAct..'</TempAct>'
 	
+	local LMeteoAct = '<MeteoAct>(.*)</MeteoAct>'
+	local MesureMeteoAct = SKIN:GetMeasure('MesureMeteoAct')
+	local StringMeteoAct = MesureMeteoAct:GetStringValue()
+	local ModifMeteoAct ='<MeteoAct>'..StringMeteoAct..'</MeteoAct>'
 	
 	WriteOverFile(Path, LTminJ0, ModifTminJ0)
 	WriteOverFile(Path, LTmaxJ0, ModifTmaxJ0)
@@ -301,6 +305,7 @@ function Update()
 	WriteOverFile(Path, LVentJ7, ModifVentJ7)
 	
 	WriteOverFile(Path, LTempAct, ModifTempAct)
+	WriteOverFile(Path, LMeteoAct, ModifMeteoAct)
 end
 
 
@@ -311,5 +316,5 @@ function WriteOverFile(Path, StringARemplacer, StringDeRemplacement)
     fp:close()
  	fp = io.open(Path, "w+" )
     fp:write( stri )
-    fp:close()	
+   	fp:close()
 end

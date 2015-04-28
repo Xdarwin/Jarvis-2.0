@@ -1,38 +1,38 @@
 Train 1
-<NomT1>SOLA</NomT1>
-<HeureT1>05:13*</HeureT1>
-<DestT1>CREIL</DestT1>
-<VoieT1>1</VoieT1>
+<NomT1>BUPE</NomT1>
+<HeureT1>16:11</HeureT1>
+<DestT1>MALESHERBES</DestT1>
+<VoieT1>A</VoieT1>
 
 Train 2
 <NomT2>ROVO</NomT2>
-<HeureT2>05:16*</HeureT2>
+<HeureT2>16:18</HeureT2>
 <DestT2>CORBEIL ESSONNES</DestT2>
 <VoieT2>2</VoieT2>
 
 Train 3
-<NomT3>FOLA</NomT3>
-<HeureT3>05:28*</HeureT3>
-<DestT3>GOUSSAINVILLE</DestT3>
-<VoieT3>1</VoieT3>
+<NomT3>ZACO</NomT3>
+<HeureT3>16:22</HeureT3>
+<DestT3>MELUN</DestT3>
+<VoieT3>2</VoieT3>
 
 Train 4
-<NomT4>ZACO</NomT4>
-<HeureT4>05:37*</HeureT4>
-<DestT4>MELUN</DestT4>
-<VoieT4>2</VoieT4>
+<NomT4>FACA</NomT4>
+<HeureT4>16:23</HeureT4>
+<DestT4>GOUSSAINVILLE</DestT4>
+<VoieT4>1</VoieT4>
 
 Train 5
-<NomT5>SOVA</NomT5>
-<HeureT5>05:43*</HeureT5>
-<DestT5>CREIL</DestT5>
-<VoieT5>1</VoieT5>
+<NomT5>RUPE</NomT5>
+<HeureT5>16:26</HeureT5>
+<DestT5>CORBEIL ESSONNES</DestT5>
+<VoieT5>B</VoieT5>
 
 Train 6
-<NomT6>ROVO</NomT6>
-<HeureT6>05:46*</HeureT6>
-<DestT6>CORBEIL ESSONNES</DestT6>
-<VoieT6>2</VoieT6>
+<NomT6>LOVA</NomT6>
+<HeureT6>16:30</HeureT6>
+<DestT6>ORRY LA VILLE COYE LA FORET</DestT6>
+<VoieT6>1</VoieT6>
 
 Etat Ligne
 <Etat>normal</Etat>

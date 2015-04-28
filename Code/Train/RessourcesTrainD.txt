@@ -1,38 +1,38 @@
 Train 1
-<NomT1>BUPE</NomT1>
-<HeureT1>16:11</HeureT1>
-<DestT1>MALESHERBES</DestT1>
-<VoieT1>A</VoieT1>
+<NomT1>ZACO</NomT1>
+<HeureT1>16:37</HeureT1>
+<DestT1>MELUN</DestT1>
+<VoieT1>2</VoieT1>
 
 Train 2
-<NomT2>ROVO</NomT2>
-<HeureT2>16:18</HeureT2>
-<DestT2>CORBEIL ESSONNES</DestT2>
-<VoieT2>2</VoieT2>
+<NomT2>FACA</NomT2>
+<HeureT2>16:39</HeureT2>
+<DestT2>GOUSSAINVILLE</DestT2>
+<VoieT2>1</VoieT2>
 
 Train 3
-<NomT3>ZACO</NomT3>
-<HeureT3>16:22</HeureT3>
-<DestT3>MELUN</DestT3>
-<VoieT3>2</VoieT3>
+<NomT3>BUPE</NomT3>
+<HeureT3>16:41</HeureT3>
+<DestT3>MALESHERBES</DestT3>
+<VoieT3>A</VoieT3>
 
 Train 4
-<NomT4>FACA</NomT4>
-<HeureT4>16:23</HeureT4>
-<DestT4>GOUSSAINVILLE</DestT4>
+<NomT4>LOVA</NomT4>
+<HeureT4>16:44</HeureT4>
+<DestT4>ORRY LA VILLE COYE LA FORET</DestT4>
 <VoieT4>1</VoieT4>
 
 Train 5
-<NomT5>RUPE</NomT5>
-<HeureT5>16:26</HeureT5>
+<NomT5>ROVO</NomT5>
+<HeureT5>16:47</HeureT5>
 <DestT5>CORBEIL ESSONNES</DestT5>
-<VoieT5>B</VoieT5>
+<VoieT5>2</VoieT5>
 
 Train 6
-<NomT6>LOVA</NomT6>
-<HeureT6>16:30</HeureT6>
-<DestT6>ORRY LA VILLE COYE LA FORET</DestT6>
-<VoieT6>1</VoieT6>
+<NomT6>ZACO</NomT6>
+<HeureT6>16:52</HeureT6>
+<DestT6>MELUN</DestT6>
+<VoieT6>2</VoieT6>
 
 Etat Ligne
 <Etat>normal</Etat>

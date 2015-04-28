@@ -20,7 +20,6 @@ function Update()
 	local LTempsJ0 = '<TempsJ0>(.*)</TempsJ0>'
 	local MesureTempsJ0 = SKIN:GetMeasure('MesureTempsJ0')
 	local StringTempsJ0 = MesureTempsJ0:GetStringValue()
-	StringTempsJ0 = string.gsub(StringTempsJ0, "%s+", "")
 	local ModifTempsJ0 ='<TempsJ0>'..StringTempsJ0..'</TempsJ0>'
 	
 	local LUVJ0 = '<UVJ0>(.*)</UVJ0>'
@@ -54,7 +53,6 @@ function Update()
 	local LTempsJ1 = '<TempsJ1>(.*)</TempsJ1>'
 	local MesureTempsJ1 = SKIN:GetMeasure('MesureTempsJ1')
 	local StringTempsJ1 = MesureTempsJ1:GetStringValue()
-	StringTempsJ1 = string.gsub(StringTempsJ1, "%s+", "")
 	local ModifTempsJ1 ='<TempsJ1>'..StringTempsJ1..'</TempsJ1>'
 	
 	local LUVJ1 = '<UVJ1>(.*)</UVJ1>'
@@ -88,7 +86,6 @@ function Update()
 	local LTempsJ2 = '<TempsJ2>(.*)</TempsJ2>'
 	local MesureTempsJ2 = SKIN:GetMeasure('MesureTempsJ2')
 	local StringTempsJ2 = MesureTempsJ2:GetStringValue()
-	StringTempsJ2 = string.gsub(StringTempsJ2, "%s+", "")
 	local ModifTempsJ2 ='<TempsJ2>'..StringTempsJ2..'</TempsJ2>'
 	
 	local LUVJ2 = '<UVJ2>(.*)</UVJ2>'
@@ -122,7 +119,6 @@ function Update()
 	local LTempsJ3 = '<TempsJ3>(.*)</TempsJ3>'
 	local MesureTempsJ3 = SKIN:GetMeasure('MesureTempsJ3')
 	local StringTempsJ3 = MesureTempsJ3:GetStringValue()
-	StringTempsJ3 = string.gsub(StringTempsJ3, "%s+", "")
 	local ModifTempsJ3 ='<TempsJ3>'..StringTempsJ3..'</TempsJ3>'
 	
 	local LUVJ3 = '<UVJ3>(.*)</UVJ3>'
@@ -156,7 +152,6 @@ function Update()
 	local LTempsJ4 = '<TempsJ4>(.*)</TempsJ4>'
 	local MesureTempsJ4 = SKIN:GetMeasure('MesureTempsJ4')
 	local StringTempsJ4 = MesureTempsJ4:GetStringValue()
-	StringTempsJ4 = string.gsub(StringTempsJ4, "%s+", "")
 	local ModifTempsJ4 ='<TempsJ4>'..StringTempsJ4..'</TempsJ4>'
 	
 	local LVentJ4 = '<VentJ4>(.*)</VentJ4>'
@@ -183,7 +178,6 @@ function Update()
 	local LTempsJ5 = '<TempsJ5>(.*)</TempsJ5>'
 	local MesureTempsJ5 = SKIN:GetMeasure('MesureTempsJ5')
 	local StringTempsJ5 = MesureTempsJ5:GetStringValue()
-	StringTempsJ5 = string.gsub(StringTempsJ5, "%s+", "")
 	local ModifTempsJ5 ='<TempsJ5>'..StringTempsJ5..'</TempsJ5>'
 	
 	local LVentJ5 = '<VentJ5>(.*)</VentJ5>'
@@ -210,7 +204,6 @@ function Update()
 	local LTempsJ6 = '<TempsJ6>(.*)</TempsJ6>'
 	local MesureTempsJ6 = SKIN:GetMeasure('MesureTempsJ6')
 	local StringTempsJ6 = MesureTempsJ6:GetStringValue()
-	StringTempsJ6 = string.gsub(StringTempsJ6, "%s+", "")
 	local ModifTempsJ6 ='<TempsJ6>'..StringTempsJ6..'</TempsJ6>'
 	
 	local LVentJ6 = '<VentJ6>(.*)</VentJ6>'
@@ -237,7 +230,6 @@ function Update()
 	local LTempsJ7 = '<TempsJ7>(.*)</TempsJ7>'
 	local MesureTempsJ7 = SKIN:GetMeasure('MesureTempsJ7')
 	local StringTempsJ7 = MesureTempsJ7:GetStringValue()
-	StringTempsJ7 = string.gsub(StringTempsJ7, "%s+", "")
 	local ModifTempsJ7 ='<TempsJ7>'..StringTempsJ7..'</TempsJ7>'
 	
 	local LVentJ7 = '<VentJ7>(.*)</VentJ7>'

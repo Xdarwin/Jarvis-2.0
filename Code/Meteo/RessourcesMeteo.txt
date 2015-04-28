@@ -1,53 +1,53 @@
 JOUR 0
 <TminJ0>5</TminJ0>
 <TmaxJ0>14</TmaxJ0>
-<TempsJ0>Éclaircies</TempsJ0>
+<TempsJ0>Éclaircies </TempsJ0>
 <UVJ0>4</UVJ0>
 <VentJ0>14</VentJ0>
 
 JOUR 1
 <TminJ1>4</TminJ1>
 <TmaxJ1>16</TmaxJ1>
-<TempsJ1>Éclaircies</TempsJ1>
+<TempsJ1>Éclaircies </TempsJ1>
 <UVJ1>4</UVJ1>
 <VentJ1>18</VentJ1>
 
 JOUR 2
 <TminJ2>7</TminJ2>
 <TmaxJ2>14</TmaxJ2>
-<TempsJ2>Pluieséparses</TempsJ2>
+<TempsJ2>Pluies éparses </TempsJ2>
 <UVJ2>2</UVJ2>
 <VentJ2>22</VentJ2>
 
 JOUR 3
 <TminJ3>7</TminJ3>
 <TmaxJ3>14</TmaxJ3>
-<TempsJ3>Pluie</TempsJ3>
+<TempsJ3>Pluie </TempsJ3>
 <UVJ3>4</UVJ3>
 <VentJ3>18</VentJ3>
 
 JOUR 4
 <TminJ4>8</TminJ4>
 <TmaxJ4>17</TmaxJ4>
-<TempsJ4>Pluie</TempsJ4>
+<TempsJ4>Pluie </TempsJ4>
 <VentJ4>14</VentJ4>
 
 JOUR 5
 <TminJ5>12</TminJ5>
 <TmaxJ5>21</TmaxJ5>
-<TempsJ5>Pluie</TempsJ5>
+<TempsJ5>Pluie </TempsJ5>
 <VentJ5>14</VentJ5>
 
 JOUR 6
 <TminJ6>13</TminJ6>
 <TmaxJ6>21</TmaxJ6>
-<TempsJ6>Averses</TempsJ6>
+<TempsJ6>Averses </TempsJ6>
 <VentJ6>22</VentJ6>
 
 JOUR 7
 <TminJ7>10</TminJ7>
 <TmaxJ7>20</TmaxJ7>
-<TempsJ7>Averses</TempsJ7>
+<TempsJ7>Averses </TempsJ7>
 <VentJ7>14</VentJ7>
 
 TEMP ACTUELLE

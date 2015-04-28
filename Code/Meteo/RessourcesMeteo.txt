@@ -51,5 +51,5 @@ JOUR 7
 <VentJ7>14</VentJ7>
 
 TEMP ACTUELLE
-<TempAct>12</TempAct>
-<MeteoAct>Ensoleillé</MeteoAct>
+<TempAct>11</TempAct>
+<MeteoAct>Ciel dégagé</MeteoAct>

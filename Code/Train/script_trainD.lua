@@ -191,11 +191,14 @@ end
 
 
 function WriteOverFile(Path, StringARemplacer, StringDeRemplacement)
-	fp = io.open( Path, "r" )
-    str = fp:read( "*all" )
-    stri = string.gsub(str, StringARemplacer, StringDeRemplacement)
-    fp:close()
- 	fp = io.open(Path, "w+" )
-    fp:write( stri )
-    fp:close()	
+	if string.match(StringDeRemplacement, "><") then
+	else
+		fp = io.open( Path, "r" )
+    	str = fp:read( "*all" )
+    	stri = string.gsub(str, StringARemplacer, StringDeRemplacement)
+    	fp:close()
+ 		fp = io.open(Path, "w+" )
+    	fp:write( stri )
+   		fp:close()
+   	end
 end

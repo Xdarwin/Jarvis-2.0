@@ -1,55 +1,55 @@
 JOUR 0
-<TminJ0>5</TminJ0>
-<TmaxJ0>14</TmaxJ0>
-<TempsJ0>Éclaircies </TempsJ0>
-<UVJ0>4</UVJ0>
-<VentJ0>14</VentJ0>
+<TminJ0>8</TminJ0>
+<TmaxJ0>11</TmaxJ0>
+<TempsJ0>Pluie </TempsJ0>
+<UVJ0>2</UVJ0>
+<VentJ0>18</VentJ0>
 
 JOUR 1
-<TminJ1>4</TminJ1>
-<TmaxJ1>15</TmaxJ1>
-<TempsJ1>Éclaircies </TempsJ1>
-<UVJ1>4</UVJ1>
-<VentJ1>18</VentJ1>
+<TminJ1>8</TminJ1>
+<TmaxJ1>13</TmaxJ1>
+<TempsJ1>Pluies éparses </TempsJ1>
+<UVJ1>2</UVJ1>
+<VentJ1>11</VentJ1>
 
 JOUR 2
 <TminJ2>6</TminJ2>
-<TmaxJ2>14</TmaxJ2>
+<TmaxJ2>15</TmaxJ2>
 <TempsJ2>Pluies éparses </TempsJ2>
-<UVJ2>2</UVJ2>
-<VentJ2>22</VentJ2>
+<UVJ2>3</UVJ2>
+<VentJ2>11</VentJ2>
 
 JOUR 3
-<TminJ3>7</TminJ3>
-<TmaxJ3>14</TmaxJ3>
-<TempsJ3>Pluie </TempsJ3>
+<TminJ3>12</TminJ3>
+<TmaxJ3>19</TmaxJ3>
+<TempsJ3>Pluies éparses </TempsJ3>
 <UVJ3>4</UVJ3>
-<VentJ3>18</VentJ3>
+<VentJ3>29</VentJ3>
 
 JOUR 4
-<TminJ4>8</TminJ4>
-<TmaxJ4>17</TmaxJ4>
-<TempsJ4>Pluie </TempsJ4>
+<TminJ4>12</TminJ4>
+<TmaxJ4>19</TmaxJ4>
+<TempsJ4>Très nuageux </TempsJ4>
 <VentJ4>14</VentJ4>
 
 JOUR 5
-<TminJ5>12</TminJ5>
-<TmaxJ5>21</TmaxJ5>
+<TminJ5>11</TminJ5>
+<TmaxJ5>19</TmaxJ5>
 <TempsJ5>Pluie </TempsJ5>
-<VentJ5>14</VentJ5>
+<VentJ5>18</VentJ5>
 
 JOUR 6
-<TminJ6>13</TminJ6>
-<TmaxJ6>21</TmaxJ6>
-<TempsJ6>Averses </TempsJ6>
-<VentJ6>22</VentJ6>
+<TminJ6>10</TminJ6>
+<TmaxJ6>19</TmaxJ6>
+<TempsJ6>Éclaircies </TempsJ6>
+<VentJ6>14</VentJ6>
 
 JOUR 7
 <TminJ7>10</TminJ7>
 <TmaxJ7>20</TmaxJ7>
-<TempsJ7>Averses </TempsJ7>
+<TempsJ7>Éclaircies </TempsJ7>
 <VentJ7>14</VentJ7>
 
 TEMP ACTUELLE
 <TempAct>8</TempAct>
-<MeteoAct>Ciel dégagé</MeteoAct>
+<MeteoAct>Averses</MeteoAct>

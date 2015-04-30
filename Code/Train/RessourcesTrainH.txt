@@ -1,36 +1,36 @@
 Train 1
-<NomT1>AOMA</NomT1>
-<HeureT1>05:02</HeureT1>
-<DestT1>PARIS NORD</DestT1>
-<VoieT1>2</VoieT1>
+<NomT1>POMA</NomT1>
+<HeureT1>22:56</HeureT1>
+<DestT1>PERSAN BEAUMONT</DestT1>
+<VoieT1>1</VoieT1>
 
 Train 2
 <NomT2>AOMA</NomT2>
-<HeureT2>05:32</HeureT2>
+<HeureT2>23:05</HeureT2>
 <DestT2>PARIS NORD</DestT2>
 <VoieT2>2</VoieT2>
 
 Train 3
 <NomT3>LOMI</NomT3>
-<HeureT3>05:41</HeureT3>
+<HeureT3>23:26</HeureT3>
 <DestT3>LUZARCHES</DestT3>
 <VoieT3>1</VoieT3>
 
 Train 4
 <NomT4>AOLA</NomT4>
-<HeureT4>05:47</HeureT4>
+<HeureT4>23:32</HeureT4>
 <DestT4>PARIS NORD</DestT4>
 <VoieT4>2</VoieT4>
 
 Train 5
 <NomT5>POMA</NomT5>
-<HeureT5>05:56</HeureT5>
+<HeureT5>23:56</HeureT5>
 <DestT5>PERSAN BEAUMONT</DestT5>
 <VoieT5>1</VoieT5>
 
 Train 6
-<NomT6>ADEP</NomT6>
-<HeureT6>06:01</HeureT6>
+<NomT6>AOMA</NomT6>
+<HeureT6>00:02</HeureT6>
 <DestT6>PARIS NORD</DestT6>
 <VoieT6>2</VoieT6>
 

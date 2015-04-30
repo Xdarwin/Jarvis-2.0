@@ -7,13 +7,13 @@ JOUR 0
 
 JOUR 1
 <TminJ1>4</TminJ1>
-<TmaxJ1>16</TmaxJ1>
+<TmaxJ1>15</TmaxJ1>
 <TempsJ1>Éclaircies </TempsJ1>
 <UVJ1>4</UVJ1>
 <VentJ1>18</VentJ1>
 
 JOUR 2
-<TminJ2>7</TminJ2>
+<TminJ2>6</TminJ2>
 <TmaxJ2>14</TmaxJ2>
 <TempsJ2>Pluies éparses </TempsJ2>
 <UVJ2>2</UVJ2>
@@ -51,5 +51,5 @@ JOUR 7
 <VentJ7>14</VentJ7>
 
 TEMP ACTUELLE
-<TempAct>11</TempAct>
+<TempAct>8</TempAct>
 <MeteoAct>Ciel dégagé</MeteoAct>

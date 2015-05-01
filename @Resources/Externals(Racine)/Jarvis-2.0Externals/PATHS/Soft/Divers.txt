@@ -1,0 +1,17 @@
+PATH SOFT
+
+<adobe></adobe>
+<audacity></audacity>
+<avast></avast>
+<blocnote></blocnote>
+<calc></calc>
+<excel></excel>
+<word></word>
+<github></github>
+<mumble></mumble>
+<notepad++></notepad++>
+<paint></paint>
+<rainmeter></rainmeter>
+<skype></skype>
+<unity></unity>
+<vlc></vlc>

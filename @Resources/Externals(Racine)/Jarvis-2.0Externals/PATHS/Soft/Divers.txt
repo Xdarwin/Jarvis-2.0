@@ -3,15 +3,15 @@ PATH SOFT
 <adobe></adobe>
 <audacity></audacity>
 <avast></avast>
-<blocnote></blocnote>
+<blocnote>%windir%\system32\notepad.exe</blocnote>
 <calc></calc>
 <excel></excel>
 <word></word>
 <github></github>
 <mumble></mumble>
 <notepad++></notepad++>
-<paint></paint>
+<paint>C:\Program Files\paint.net\PaintDotNet.exe</paint>
 <rainmeter></rainmeter>
-<skype></skype>
-<unity></unity>
-<vlc></vlc>
+<skype>C:\Program Files (x86)\Skype\Phone\Skype.exe</skype>
+<unity>F:\Unity\Editor\Unity.exe</unity>
+<vlc>C:\Program Files (x86)\VideoLAN\VLC\vlc.exe</vlc>

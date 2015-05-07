@@ -3,6 +3,7 @@ Train 1
 <HeureT1>Retardé</HeureT1>
 <DestT1>MELUN</DestT1>
 <VoieT1>2</VoieT1>
+<GDN1></GDN1>
 
 Train 2
 <NomT2>ROVO</NomT2>

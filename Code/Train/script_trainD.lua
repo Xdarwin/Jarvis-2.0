@@ -202,3 +202,11 @@ function WriteOverFile(Path, StringARemplacer, StringDeRemplacement)
    		fp:close()
    	end
 end
+
+
+
+ --[[
+ - Verifier si train passe par Paris pour avoir afficher la destination mais savoir s'il passe par GDN
+ - Mettre une refresh date pour le cas ou on a pas internet pendant un petit temps #RELOU
+ --]]
+ 

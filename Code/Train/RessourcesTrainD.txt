@@ -4,6 +4,7 @@ Train 1
 <DestT1>MELUN</DestT1>
 <VoieT1>2</VoieT1>
 <GDN1></GDN1>
+<Jour></Jour>
 
 Train 2
 <NomT2>ROVO</NomT2>

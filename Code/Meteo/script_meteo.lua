@@ -3,7 +3,7 @@ function Initialize()
 end
 
 function Update()
-	local Path = SKIN:MakePathAbsolute('RessourcesMeteo.txt')
+	local Path = 'C:/Jarvis-2.0Externals/METEO/RessourcesMeteo.txt'
 	
 	local LTminJ0 = '<TminJ0>(.*)</TminJ0>'
 	local MesureTminJ0 = SKIN:GetMeasure('MesureTempMinJ0')
@@ -252,7 +252,7 @@ function Update()
 	local StringMeteoAct = MesureMeteoAct:GetStringValue()
 	local ModifMeteoAct ='<MeteoAct>'..StringMeteoAct..'</MeteoAct>'
 	
-	WriteOverFile(Path, LTminJ0, ModifTminJ0)
+	WriteAndRefreshTime(Path, LTminJ0, ModifTminJ0)
 	WriteOverFile(Path, LTmaxJ0, ModifTmaxJ0)
 	WriteOverFile(Path, LTempsJ0, ModifTempsJ0)
 	WriteOverFile(Path, LUVJ0, ModifUVJ0)
@@ -311,5 +311,24 @@ function WriteOverFile(Path, StringARemplacer, StringDeRemplacement)
  		fp = io.open(Path, "w+" )
     	fp:write( stri )
    		fp:close()
+   	end
+end
+
+function WriteAndRefreshTime(Path, StringARemplacer, StringDeRemplacement)
+	if string.match(StringDeRemplacement, "><") then
+	else
+		WriteOverFile(Path, StringARemplacer, StringDeRemplacement)
+		local Jour = os.date("%d/%m/%Y")
+		local Heure = os.date("%H")
+		local Min = os.date("%M")
+		local JourARemplacer = '<Jour>(.*)</Jour>'
+		local HeureARemplacer = '<Heure>(.*)</Heure>'
+		local MinARemplacer = '<Min>(.*)</Min>'
+		local JourDeRemplacement = '<Jour>'..Jour..'</Jour>'
+		local HeureDeRemplacement = '<Heure>'..Heure..'</Heure>'
+		local MinDeRemplacement = '<Min>'..Min..'</Min>'
+		WriteOverFile(Path, JourARemplacer, JourDeRemplacement)
+		WriteOverFile(Path, HeureARemplacer, HeureDeRemplacement)
+		WriteOverFile(Path, MinARemplacer, MinDeRemplacement)
    	end
 end

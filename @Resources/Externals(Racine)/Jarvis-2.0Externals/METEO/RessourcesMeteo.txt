@@ -53,3 +53,8 @@ JOUR 7
 TEMP ACTUELLE
 <TempAct>8</TempAct>
 <MeteoAct>Averses</MeteoAct>
+
+Refresh
+<Jour>08/05/2015</Jour>
+<Heure>21</Heure>
+<Min>57</Min>

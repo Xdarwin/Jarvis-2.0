@@ -3,7 +3,7 @@ function Initialize()
 end
 
 function Update()
-	local Path = SKIN:MakePathAbsolute('RessourcesTrainH.txt')
+	local Path = 'C:/Jarvis-2.0Externals/TRAIN/RessourcesTrainH.txt'
 	
 	local LNomT1 = '<NomT1>(.*)</NomT1>'
 	local MesureNomT1 = SKIN:GetMeasure('MesureNomT1')

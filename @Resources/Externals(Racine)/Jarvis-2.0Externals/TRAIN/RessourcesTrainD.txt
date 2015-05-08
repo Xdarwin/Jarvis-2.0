@@ -1,0 +1,51 @@
+Train 1
+<NomT1>FACA</NomT1>
+<HeureT1>22:10</HeureT1>
+<DestT1>GOUSSAINVILLE</DestT1>
+<VoieT1>1</VoieT1>
+<GDN1>YES</GDN1>
+
+Train 2
+<NomT2>FOVA</NomT2>
+<HeureT2>22:13</HeureT2>
+<DestT2>GOUSSAINVILLE</DestT2>
+<VoieT2>1</VoieT2>
+<GDN2>NO</GDN2>
+
+Train 3
+<NomT3>RIVO</NomT3>
+<HeureT3>22:15</HeureT3>
+<DestT3>CORBEIL ESSONNES</DestT3>
+<VoieT3>2</VoieT3>
+<GDN3>NO</GDN3>
+
+Train 4
+<NomT4>FOVA</NomT4>
+<HeureT4>22:44</HeureT4>
+<DestT4>GOUSSAINVILLE</DestT4>
+<VoieT4>1</VoieT4>
+<GDN4>YES</GDN4>
+
+Train 5
+<NomT5>RIVO</NomT5>
+<HeureT5>22:45</HeureT5>
+<DestT5>CORBEIL ESSONNES</DestT5>
+<VoieT5>2</VoieT5>
+<GDN5>NO</GDN5>
+
+Train 6
+<NomT6>FOVA</NomT6>
+<HeureT6>23:13</HeureT6>
+<DestT6>GOUSSAINVILLE</DestT6>
+<VoieT6>1</VoieT6>
+<GDN6>NO</GDN6>
+
+Etat Ligne
+<Etat>normal</Etat>
+
+Refresh
+<Jour>08/05/2015</Jour>
+<Heure>21</Heure>
+<Min>53</Min>
+
+<Path>C:/Jarvis-2.0Externals/TRAIN/RessourcesTrainD.txt</Path>

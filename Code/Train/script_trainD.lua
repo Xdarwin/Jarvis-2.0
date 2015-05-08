@@ -3,7 +3,7 @@ function Initialize()
 end
 
 function Update()
-	local Path = SKIN:MakePathAbsolute('RessourcesTrainD.txt')
+	local Path = 'C:/Jarvis-2.0Externals/TRAIN/RessourcesTrainD.txt'
 	
 	local LNomT1 = '<NomT1>(.*)</NomT1>'
 	local MesureNomT1 = SKIN:GetMeasure('MesureNomT1')
@@ -156,35 +156,41 @@ function Update()
 	StringEtat = string.gsub(StringEtat, "Trafic", "") 
 	local ModifEtat ='<Etat>'..StringEtat..'</Etat>'
 	
-	WriteOverFile(Path, LNomT1, ModifNomT1)
+	WriteAndRefreshTime(Path, LNomT1, ModifNomT1)
 	WriteOverFile(Path, LHeureT1, ModifHeureT1)
 	WriteOverFile(Path, LDestT1, ModifDestT1)
 	WriteOverFile(Path, LVoieT1, ModifVoieT1)
+	CheckGDN('1', ModifDestT1)
 	
 	WriteOverFile(Path, LNomT2, ModifNomT2)
 	WriteOverFile(Path, LHeureT2, ModifHeureT2)
 	WriteOverFile(Path, LDestT2, ModifDestT2)
 	WriteOverFile(Path, LVoieT2, ModifVoieT2)
+	CheckGDN('2', ModifDestT2)
 	
 	WriteOverFile(Path, LNomT3, ModifNomT3)
 	WriteOverFile(Path, LHeureT3, ModifHeureT3)
 	WriteOverFile(Path, LDestT3, ModifDestT3)
 	WriteOverFile(Path, LVoieT3, ModifVoieT3)
+	CheckGDN('3', ModifDestT3)
 	
 	WriteOverFile(Path, LNomT4, ModifNomT4)
 	WriteOverFile(Path, LHeureT4, ModifHeureT4)
 	WriteOverFile(Path, LDestT4, ModifDestT4)
 	WriteOverFile(Path, LVoieT4, ModifVoieT4)
+	CheckGDN('4', ModifDestT4)
 	
 	WriteOverFile(Path, LNomT5, ModifNomT5)
 	WriteOverFile(Path, LHeureT5, ModifHeureT5)
 	WriteOverFile(Path, LDestT5, ModifDestT5)
 	WriteOverFile(Path, LVoieT5, ModifVoieT5)
+	CheckGDN('5', ModifDestT5)
 	
 	WriteOverFile(Path, LNomT6, ModifNomT6)
 	WriteOverFile(Path, LHeureT6, ModifHeureT6)
 	WriteOverFile(Path, LDestT6, ModifDestT6)
 	WriteOverFile(Path, LVoieT6, ModifVoieT6)
+	CheckGDN('6', ModifDestT6)
 	
 	WriteOverFile(Path, LEtat, ModifEtat)
 end
@@ -203,8 +209,36 @@ function WriteOverFile(Path, StringARemplacer, StringDeRemplacement)
    	end
 end
 
+function WriteAndRefreshTime(Path, StringARemplacer, StringDeRemplacement)
+	if string.match(StringDeRemplacement, "><") then
+	else
+		WriteOverFile(Path, StringARemplacer, StringDeRemplacement)
+		local Jour = os.date("%d/%m/%Y")
+		local Heure = os.date("%H")
+		local Min = os.date("%M")
+		local JourARemplacer = '<Jour>(.*)</Jour>'
+		local HeureARemplacer = '<Heure>(.*)</Heure>'
+		local MinARemplacer = '<Min>(.*)</Min>'
+		local JourDeRemplacement = '<Jour>'..Jour..'</Jour>'
+		local HeureDeRemplacement = '<Heure>'..Heure..'</Heure>'
+		local MinDeRemplacement = '<Min>'..Min..'</Min>'
+		WriteOverFile(Path, JourARemplacer, JourDeRemplacement)
+		WriteOverFile(Path, HeureARemplacer, HeureDeRemplacement)
+		WriteOverFile(Path, MinARemplacer, MinDeRemplacement)
+   	end
+end
 
-
+function CheckGDN(Train, Destination)
+	local Path = 'C:/Jarvis-2.0Externals/TRAIN/RessourcesTrainD.txt'
+	local StringARemplacer = '<GDN'..Train..'>(.*)</GDN'..Train..'>'
+	local StringDeRemplacement = ''
+	if string.match(Destination, "MELUN") or string.match(Destination, "CORBEIL ESSONNES") or string.match(Destination, "MALESHERBES")or string.match(Destination, "PARIS") then
+		StringDeRemplacement = '<GDN'..Train..'>YES</GDN'..Train..'>'
+	else StringDeRemplacement = '<GDN'..Train..'>NO</GDN'..Train..'>'
+	end
+	WriteOverFile(Path, StringARemplacer, StringDeRemplacement)
+	
+end
  --[[
  - Verifier si train passe par Paris pour avoir afficher la destination mais savoir s'il passe par GDN
  - Mettre une refresh date pour le cas ou on a pas internet pendant un petit temps #RELOU

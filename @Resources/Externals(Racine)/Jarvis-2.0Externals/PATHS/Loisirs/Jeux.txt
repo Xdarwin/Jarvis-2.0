@@ -1,0 +1,5 @@
+<steam>F:\Jeux\Steam\Steam.exe</steam>
+<origin>F:\Jeux\Origin\Origin.exe</origin>
+<uplay>C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\Uplay.exe</uplay>
+<maniapla>F:\Jeux\ManiaPlanet\ManiaPlanet\ManiaPlanetLauncher.exe</maniapla>
+<battle.net>F:\Jeux\Hearstone\Battle.net\Battle.net Launcher.exe</battle.net>

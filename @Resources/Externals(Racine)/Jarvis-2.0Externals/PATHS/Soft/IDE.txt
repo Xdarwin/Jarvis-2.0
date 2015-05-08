@@ -1,8 +1,8 @@
 PATH IDE
 
-<visual>F:\Logiciels\Visual Studio\Common7\IDE\devenv.exe</visual>
+<visual>"F:\Logiciels\Visual Studio\Common7\IDE\devenv.exe"</visual>
 <android></android>
 <eclipse></eclipse>
 <lua>F:\LuaEdit\LuaEdit 2010\Luaedit.exe</lua>
-<emacs>C:\Program Files (x86)\GNU Emacs 24.3\bin\runemacs.exe</emacs>
+<emacs>"C:\Program Files (x86)\GNU Emacs 24.3\bin\runemacs.exe"</emacs>
 <arduino>C:\Arduino\arduino.exe</arduino>

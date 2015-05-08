@@ -2,12 +2,12 @@ PATH SOFT
 
 <adobe></adobe>
 <audacity></audacity>
-<avast></avast>
-<blocnote>%windir%\system32\notepad.exe</blocnote>
-<calc></calc>
-<excel></excel>
-<word></word>
-<github></github>
+<avast>search-ms:displayname=Résultats%20de%20la%20recherche%20dans%20Ordinateur&crumb=location:%3A%3A{20D04FE0-3AEA-1069-A2D8-08002B30309D}\Avast\avastui.exe</avast>
+<blocnote>C:\Windows\system32\notepad.exe</blocnote>
+<calc>C:\Windows\system32\calc.exe</calc>
+<excel>C:\Program Files\Microsoft Office\Office15\XLICONS.EXE</excel>
+<word>C:\Program Files\Microsoft Office\Office15\WORDICON.EXE</word>
+<github>C:\Users\Guillaume\AppData\Local\Apps\2.0\15B6HZLY.5RZ\OPVPTKRT.7LQ\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14\GitHub.exe</github>
 <mumble></mumble>
 <notepad++></notepad++>
 <paint>C:\Program Files\paint.net\PaintDotNet.exe</paint>

@@ -1,0 +1,4 @@
+<musique>F:\Musique\VidtoMP3</musique>
+<films></films>
+<photos></photos>
+<jeux>F:\Jeux</jeux>

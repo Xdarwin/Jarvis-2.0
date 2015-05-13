@@ -1,38 +1,51 @@
 Train 1
 <NomT1>POMA</NomT1>
-<HeureT1>20:56</HeureT1>
+<HeureT1>01:11</HeureT1>
 <DestT1>PERSAN BEAUMONT</DestT1>
 <VoieT1>1</VoieT1>
+<GDN1>NO</GDN1>
 
 Train 2
 <NomT2>AOMA</NomT2>
-<HeureT2>21:02</HeureT2>
+<HeureT2>05:02</HeureT2>
 <DestT2>PARIS NORD</DestT2>
 <VoieT2>2</VoieT2>
+<GDN2>YES</GDN2>
 
 Train 3
-<NomT3>LOMI</NomT3>
-<HeureT3>21:26</HeureT3>
-<DestT3>LUZARCHES</DestT3>
-<VoieT3>1</VoieT3>
+<NomT3>AOLA</NomT3>
+<HeureT3>05:32</HeureT3>
+<DestT3>PARIS NORD</DestT3>
+<VoieT3>2</VoieT3>
+<GDN3>NO</GDN3>
 
 Train 4
-<NomT4>AOLA</NomT4>
-<HeureT4>21:32</HeureT4>
-<DestT4>PARIS NORD</DestT4>
-<VoieT4>2</VoieT4>
+<NomT4>POMA</NomT4>
+<HeureT4>05:56</HeureT4>
+<DestT4>PERSAN BEAUMONT</DestT4>
+<VoieT4>1</VoieT4>
+<GDN4>NO</GDN4>
 
 Train 5
-<NomT5>POMA</NomT5>
-<HeureT5>21:56</HeureT5>
-<DestT5>PERSAN BEAUMONT</DestT5>
-<VoieT5>1</VoieT5>
+<NomT5>AOMA</NomT5>
+<HeureT5>06:02</HeureT5>
+<DestT5>PARIS NORD</DestT5>
+<VoieT5>2</VoieT5>
+<GDN5>YES</GDN5>
 
 Train 6
-<NomT6>AOMA</NomT6>
-<HeureT6>22:02</HeureT6>
-<DestT6>PARIS NORD</DestT6>
-<VoieT6>2</VoieT6>
+<NomT6>LOMI</NomT6>
+<HeureT6>06:26</HeureT6>
+<DestT6>LUZARCHES</DestT6>
+<VoieT6>1</VoieT6>
+<GDN6>YES</GDN6>
 
 Etat Ligne
 <Etat>normal</Etat>
+
+Refresh
+<Jour>14/05/2015</Jour>
+<Heure>00</Heure>
+<Min>43</Min>
+
+<Path>C:/Jarvis-2.0Externals/TRAIN/RessourcesTrainH.txt</Path>

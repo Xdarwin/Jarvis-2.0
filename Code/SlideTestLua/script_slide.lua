@@ -3,31 +3,36 @@ function Initialize()
 end
 
 function Update()
-	local Meter1 = SKIN:GetMeter('Image')
-	local X = Meter1:GetX()
+	local MeterDate = SKIN:GetMeter('MeterDate')
+	local XDate = MeterDate:GetX()
+	local MeterTime = SKIN:GetMeter('MeterTime')
+	local XTime = MeterTime:GetX()
 	local click = tonumber(SKIN:GetVariable('click','0'))
 	local progress = tonumber(SKIN:GetVariable('progress','0'))
 	local go = tonumber(SKIN:GetVariable('go','0'))
 	if (click == 1) then
 		if (progress == 0) then
-			if (X == 100) then
+			if (XDate == 100) then
 				SKIN:Bang('!SetVariable click 0')
 				SKIN:Bang('!SetVariable go 50')
 				SKIN:Bang('!SetVariable progress 1')
-				Meter1:SetX(150)
-			elseif (X == 1850) then
+				MeterDate:SetX(150)
+				MeterTime:SetX(170)
+			elseif (XDate == 1800) then
 				SKIN:Bang('!SetVariable click 0')
 				SKIN:Bang('!SetVariable go -50')
 				SKIN:Bang('!SetVariable progress 1')
-				Meter1:SetX(1800)
+				MeterDate:SetX(1750)
+				MeterTime:SetX(1770)
 			end
 		end
 	end
 	if (progress == 1) then
 		SKIN:Bang('!SetVariable click 0')
-		X = X+go
-		Meter1:SetX(X)
-		if (X == 1850) then
+		X = XDate+go
+		MeterDate:SetX(X)
+		MeterTime:SetX(X+20)
+		if (X == 1800) then
 			SKIN:Bang('!SetVariable progress 0')
 			SKIN:Bang('!SetVariable go 0')
 		elseif (X == 100)then	

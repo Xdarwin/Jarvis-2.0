@@ -12,19 +12,19 @@ function Update()
 	local go = tonumber(SKIN:GetVariable('go','0'))
 	if (click == 1) then
 		if (progress == 0) then
-			if (XDate == 100) then
+			if (XDate == 50) then
 				SKIN:Bang('!SetVariable click 0')
 				SKIN:Bang('!SetVariable go 50')
 				SKIN:Bang('!SetVariable progress 1')
-				MeterDate:SetX(150)
-				MeterTime:SetX(170)
-			elseif (XDate == 1800) then
+				MeterDate:SetX(100)
+				MeterTime:SetX(120)
+			elseif (XDate == 1850) then
 				SKIN:Bang('!Hide "Jarvis-2.0\\Code\\BarreDesTaches\\BoutonRetourWindows"')
 				SKIN:Bang('!SetVariable click 0')
 				SKIN:Bang('!SetVariable go -50')
 				SKIN:Bang('!SetVariable progress 1')
-				MeterDate:SetX(1750)
-				MeterTime:SetX(1770)
+				MeterDate:SetX(1800)
+				MeterTime:SetX(1800)
 			end
 		end
 	end
@@ -32,12 +32,12 @@ function Update()
 		SKIN:Bang('!SetVariable click 0')
 		X = XDate+go
 		MeterDate:SetX(X)
-		MeterTime:SetX(X+20)
+		MeterTime:SetX(X+17)
 		if (go == 50) then
 		if (X == 1000) then
 			SKIN:Bang('!ShowFade "Jarvis-2.0\\Code\\BarreDesTaches\\BoutonReco"')
 		end
-		if (X == 1800) then
+		if (X == 1850) then
 			SKIN:Bang('!ShowFade "Jarvis-2.0\\Code\\BarreDesTaches\\BoutonRetourWindows"')
 		end
 		elseif (go == -50)then
@@ -45,10 +45,10 @@ function Update()
 			SKIN:Bang('!HideFade "Jarvis-2.0\\Code\\BarreDesTaches\\BoutonReco"')
 		end
 		end
-		if (X == 1800) then
+		if (X == 1850) then
 			SKIN:Bang('!SetVariable progress 0')
 			SKIN:Bang('!SetVariable go 0')
-		elseif (X == 100)then	
+		elseif (X == 50)then	
 			SKIN:Bang('!SetVariable progress 0')
 			SKIN:Bang('!SetVariable go 0')
 		end

@@ -314,10 +314,9 @@ function WriteOverFile(Path, StringARemplacer, StringDeRemplacement)
 	else
 		fp = io.open( Path, "r" )
     	str = fp:read( "*all" )
-    	StringDeRemplacement = string.gsub(StringDeRemplacement, "Éclaircies ","Eclaircies")
-    	StringDeRemplacement = string.gsub(StringDeRemplacement, "Risque d'orages ","Risque d'orages")
-    	StringDeRemplacement = string.gsub(StringDeRemplacement, "Ensoleillé ","Ensoleille")
-    	StringDeRemplacement = string.gsub(StringDeRemplacement, "é","e")
+    	if string.match(StringDeRemplacement, "é") then
+    		StringDeRemplacement = string.gsub(StringDeRemplacement, "é","e")
+    	end
     	stri = string.gsub(str, StringARemplacer, StringDeRemplacement)
     	fp:close()
  		fp = io.open(Path, "w+" )

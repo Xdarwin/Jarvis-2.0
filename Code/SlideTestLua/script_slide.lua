@@ -20,6 +20,7 @@ function Update()
 				MeterTime:SetX(120)
 			elseif (XDate == 1850) then
 				SKIN:Bang('!Hide "Jarvis-2.0\\Code\\BarreDesTaches\\BoutonRetourWindows"')
+				SKIN:Bang('!Hide "Jarvis-2.0\\Code\\BarreDesTaches\\BoutonVolume"')
 				SKIN:Bang('!SetVariable click 0')
 				SKIN:Bang('!SetVariable go -50')
 				SKIN:Bang('!SetVariable progress 1')
@@ -39,6 +40,7 @@ function Update()
 		end
 		if (X == 1850) then
 			SKIN:Bang('!ShowFade "Jarvis-2.0\\Code\\BarreDesTaches\\BoutonRetourWindows"')
+			SKIN:Bang('!ShowFade "Jarvis-2.0\\Code\\BarreDesTaches\\BoutonVolume"')
 		end
 		elseif (go == -50)then
 		if (X == 1000) then
